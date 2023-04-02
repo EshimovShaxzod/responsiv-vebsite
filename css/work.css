@@ -1,0 +1,177 @@
+.actives{
+    color: #1446F5;
+    border-bottom: 1px solid #1446F5;
+}
+
+/* work-section qismi uchun */
+.work-section{
+    padding-top: 100px;
+    height:400px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.work{
+    display: flex;
+    font-family: 'Poppins';
+}
+.work-about{
+    border-right: 2px solid rgb(161, 161, 161);
+    height: 200px;
+    width: 400px;
+    padding-right: 100px;
+}
+.small-title{
+    font-size: 22px;
+    color: #767676;
+}
+.big-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+.work_info{
+    width: 700px;
+    height: 161px;
+    padding: 10px 20px;
+    color: rgb(100, 100, 100);
+}
+.work_btn{
+    position: absolute;
+    bottom: 0;
+    padding: 6px 11px 5px;
+    background: #1446F5;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.work_btn:hover{
+    transition: .5s;
+    background-color: #183ab4;
+}
+
+/* photo_section qismi uchun */
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo, .photo-1,.photo-2,
+.photo-3,.photo-4,.photo-5 {
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.search_logo{
+    position: absolute;
+    top: 90px;
+    left: 220px;
+    font-size: 64px;
+    color: white;
+    opacity: 0;
+}
+.photo:hover .search_logo{
+    opacity: 1;
+}
+.photo:hover{
+    opacity: .6;
+}
+
+.photo img{
+    width: 100%;
+}
+.photo{
+    cursor: pointer;
+    width: 475px;
+    height: 217px;
+}
+.photo-1:hover{
+    opacity: 0.6;
+}
+.photo-1{
+    cursor: pointer;
+    width: 231px;
+    height: 217px;
+}
+.logo_1{
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    font-size: 64px;
+    color: white;
+    opacity:0;
+}
+.photo-1:hover .logo_1{
+    opacity: 1;
+}
+.logo_2{
+    position: absolute;
+    top: 85px;
+    left: 130px;
+    font-size: 64px;
+    color: white;
+    opacity:0;
+}
+.photo-2{
+    cursor: pointer;
+   width: 351px;
+   height: 217px;
+}
+.photo-2 img{
+    width: 100%;
+}
+ .photo-2:hover{
+    opacity: 0.6;
+} 
+.photo-2:hover .logo_2{
+    opacity: 1;
+}
+.logo_3{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    font-size: 64px;
+    color: white;
+    opacity:0;
+}
+.photo-3{
+    cursor: pointer;
+    width: 475px;
+    height: 184px;
+}
+.photo-3:hover{
+    opacity: 0.6;
+}
+.photo-3:hover .logo_3{
+    opacity: 1;
+}
+.logo_4{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    font-size: 64px;
+    color: white;
+    opacity:0;
+}
+.photo-5{
+    cursor: pointer;
+}
+.photo-4:hover{
+    opacity: 0.6;
+}
+.photo-4:hover .logo_4{
+    opacity: 1;
+}
+.logo_5{
+    position: absolute;
+    top: 70px;
+    left: 140px;
+    font-size: 64px;
+    color: white;
+    opacity:0;
+}
+.photo-5:hover{
+    opacity: 0.6;
+}
+.photo-5:hover .logo_5{
+    opacity: 1;
+}

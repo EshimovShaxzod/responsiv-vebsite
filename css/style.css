@@ -1,0 +1,241 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    margin-right: 360px;
+}
+.nav_list-item{
+    list-style: none;
+}
+
+.nav_pic{
+    margin-right: 42px;
+    color: #1446F5;
+    margin-right: 80px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: 'Poppins';
+}
+.nav_link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.nav_link:hover{
+    color: #1446F5;
+    transition: .3s;
+}
+.actives{
+    color: #1446F5;
+    border-bottom: 1px solid #1446F5;
+}
+.active:hover{
+    border: none;
+}
+.nav_btn{
+    padding: 9px 11px;
+    border-radius: 12px;
+    background: #1446F5;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins';
+} 
+.nav_btn:hover{
+    transition: .5s;
+    background-color: #183ab4;
+}
+/* main qismi uchun */
+/* design_section qismi uchun */
+.design_section{
+    height: 600px;
+    padding-top: 80px;
+    font-family: 'Poppins';
+}
+.designed_about{
+    position: relative;
+    float: left;
+    width: 35%;
+    height: 370px;
+}
+.small_title{
+    color: #767676;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+}
+.big_title{
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+}
+.circle_pic{
+    margin-bottom: 30px;
+}
+.work_btn{
+    padding: 6px 11px 5px;
+    background: #1446F5;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.work_btn:hover{
+    transition: .5s;
+    background-color: #183ab4;
+}
+.clearfix{
+    clear: both;
+}
+
+/* jobs_section qismi uchun */
+.jobs_section{
+    height: 300px;
+}
+.jobs_about{
+    display: flex;
+    padding-top: 90px;
+    width: 30%;
+    float: left;
+    margin-right: 100px;
+}
+.job_people{
+    width: 155px;
+    height: 135px;
+    position: relative;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 40px;
+    transition: .7s;
+    cursor: pointer;
+}
+.job_people:hover{
+    box-shadow:1px 1px 12px rgba(0, 0, 0, 0.19) ;
+}
+.me_photo{
+    position: absolute;
+    top: -35px;
+    left: 50px;
+}
+.my_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1446F5;
+    padding-top: 30px;
+}
+.about_me{
+    color: #767676;
+    font-family: 'Poppins';
+}
+
+.jobs_info{
+    width: 62%;
+    float: left;
+    background-color: #1446F5;
+    position: relative;
+    height: 300px;
+}
+.logo_pic img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -95px;
+    left: -95px;
+}
+.job_info{
+    position: absolute;
+    width: 400px;
+    height: 196px;
+    color: white;
+    font-family: 'Poppins';
+    top: 48px;
+    left: 220px;
+}
+
+
+
+
+
+
+@media  screen and (max-width: 576px) {
+   .container{
+    max-width: 576px;
+   }
+   .design_section{
+    height: 850px;
+   }
+   .nav_pic h2{
+     padding-left: 20px;
+     font-size: 24px;
+     margin-right: 50px;
+   }
+   .designed_about{
+    padding: 0 20px;
+    /* margin-left: 20px; */
+    width: 100%;
+   }
+   .small_title{
+    font-size: 25px;
+   }
+   .big_title{
+    font-size: 37px;
+   }
+
+   .nav_list{
+    display: none;
+   }
+   .house_pic{
+        width: 100%;
+        height: 367px;
+   }
+
+   .jobs_about{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+   }
+   .jobs_info{
+        position: relative;
+        height: 300px;
+        width: 100%;
+        background-color: #1446F5;
+   }
+   .job_info{
+        position: absolute;
+        color: white;
+        font-family: 'Poppins';
+        top: 90px;
+        left: 120px;
+   }
+   .logo_pic img{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: -130px;
+        left: -55px;
+   }
+  }

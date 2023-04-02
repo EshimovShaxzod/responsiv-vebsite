@@ -1,0 +1,26 @@
+header{
+    margin-bottom: 80px;
+}
+.actives{
+    color: #1446F5;
+    border-bottom: 1px solid #1446F5;
+}
+/* product_section qismi uchun */
+.product_section{
+    height: 730px;
+}
+.small-title{
+    color: #767676;
+    font-size: 22px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+.big-title{
+    color: #000;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Poppins';
+}
+.product_pic{
+    margin-top: 90px;
+}
