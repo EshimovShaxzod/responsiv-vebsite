@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
     width: 1400px;
     margin: 0 auto;
@@ -180,8 +184,8 @@
 
 
 
-@media  screen and (max-width: 576px) {
-   .container{
+ @media  screen and (max-width: 576px) { 
+  .container{
     max-width: 576px;
    }
    .design_section{
@@ -194,7 +198,6 @@
    }
    .designed_about{
     padding: 0 20px;
-    /* margin-left: 20px; */
     width: 100%;
    }
    .small_title{
@@ -216,7 +219,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        height: 350px;
+        height: 400px;
    }
    .jobs_info{
         position: relative;
@@ -235,7 +238,8 @@
         width: 300px;
         height: 300px;
         position: absolute;
-        top: -130px;
+        top: -150px;
         left: -55px;
    }
-  }
+  } 
+
